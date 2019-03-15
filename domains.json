@@ -1,0 +1,139 @@
+{
+  "registrar": [
+    {
+      "name": "101-domain",
+      "url": "https://www.101domain.com/eus.htm",
+      "url_query": false,
+      "XPath": {
+        "registration": "//*[@id=\"portalsearchForm\"]/div/div/div[2]/div[2]/p/strong",
+        "renew": "//*[@id=\"single_page\"]/section[9]/div/div/p[3]/strong"
+      },
+      "currency": "Dollar"
+    },
+    {
+      "name": "arsys",
+      "url": "https://www.arsys.es/dominios/gestion",
+      "url_query": false,
+      "XPath": {
+        "registration": "/html/body/section[2]/article[2]/div/table/tbody/tr[8]/td[2]/span[2]",
+        "renew": "/html/body/section[2]/article[2]/div/table/tbody/tr[8]/td[3]/span[1]"
+      },
+      "currency": null
+    },
+    {
+      "name": "blacknight",
+      "url": "https://www.blacknight.com/price-list/",
+      "url_query": false,
+      "XPath": {
+        "registration": "//*[@id=\"domainPricingNew-table\"]/tr[161]/td[2]",
+        "renew": "//li[@id=\"domainPricingRenewals\"]/div/div/div/section/table/tbody/tr[161]/td[2]"
+      },
+      "currency": "Euro"
+    },
+    {
+      "name": "cdmon",
+      "url": "https://www.cdmon.com/es/dominios/registrar-dominios",
+      "url_query": false,
+      "js_script": "cdmon.js",
+      "XPath": {
+        "registration": "//*[@id=\"eus\"]/div/div[2]/div/div[1]/div/div[2]/div/strong[1]",
+        "renew": "//*[@id=\"eus\"]/div/div[2]/div/div[2]/div/div[2]/div/strong"
+      },
+      "currency": null
+    },
+    {
+      "name": "don-dominio",
+      "url": "http://www.dondominio.com/products/domains/eus/",
+      "url_query": false,
+      "XPath": {
+        "registration": "//*[@id=\"newprod-wrapper\"]/div/div[1]/div[3]/div/div[2]/table[1]/tbody/tr[2]/td[2]",
+        "renew": "//*[@id=\"newprod-wrapper\"]/div/div[1]/div[3]/div/div[2]/table[1]/tbody/tr[3]/td[2]"
+      },
+      "currency": null
+    },
+    {
+      "name": "entorno-digital",
+      "url": "http://www.entorno.es/nuevos-dominios-eus-437.html",
+      "url_query": false,
+      "XPath": {
+        "registration": "/html/body/div[6]/div[1]/div/div/div[2]/table/tbody/tr[1]/td[2]/h5",
+        "renew": "/html/body/div[6]/div[1]/div/div/div[2]/table/tbody/tr[1]/td[3]/h5"
+      },
+      "currency": "Euro"
+    },
+    {
+      "name": "gandi",
+      "url": "http://www.gandi.net/en/tlds/eus/prices?country=ES&currency=EUR",
+      "url_query": false,
+      "vat": 21,
+      "XPath": {
+        "registration": "//*[@id=\"tld-prices\"]/div[3]/table/tbody/tr[1]/td[2]/span",
+        "renew": "//*[@id=\"tld-prices\"]/div[3]/table/tbody/tr[2]/td[2]/span"
+      }
+    },
+    {
+      "name": "godaddy",
+      "url": "https://es.godaddy.com/tlds/com-domain",
+      "url_query": false,
+      "js_script": "godaddy.js",
+      "XPath": {
+        "registration": "/html/body/div[3]/div[1]/div/div/div/div/div/div/div[3]/div/div[3]/div/div/p[2]/span/span[1]/span[1]/strike",
+        "renew": "/html/body/div[3]/div[1]/div/div/div/div/div/div/div[3]/div/div[3]/div/div/p[2]/span/span[3]"
+      },
+      "currency": null
+    },
+    {
+      "name": "guebs",
+      "url": "http://www.guebs.eus/domeinuak/eus",
+      "url_query": false,
+      "js_script": "default.js",
+      "XPath": {
+        "registration": "//*[@id=\"body\"]/div[3]/table/tbody/tr/td[2]",
+        "renew": "//*[@id=\"body\"]/div[3]/table/tbody/tr/td[3]"
+      },
+      "Vat": false,
+      "currency": null
+    },
+    {
+      "name": "hostinet",
+      "url": "http://www.hostinet.com/dominios/eus/",
+      "url_query": false,
+      "XPath": {
+        "registration": "//div[@class=\"entre-lineas-intro\"]/div/div/div/div/ul/li/ul/li[contains(span/label,\"Precio\")]/span[2]/label",
+        "renew": "//div[@class=\"entre-lineas-intro\"]/div/div[@id=\"pricetable-12628\"]/div[2]/div[2]/ul/li/ul/li[contains(span/label,\"Precio\")]/span[3]/label"
+      },
+      "currency": null
+    },
+    {
+      "name": "nominalia",
+      "url": "https://www.nominalia.com/quienes-somos/precios/?lang=en",
+      "url_query": false,
+      "XPath": {
+        "registration": "//td/span[contains(text(),\".eus\")]/../../td[2]",
+        "renew": "//div[1]/table/tbody/tr[11]/td[3]/span[1]"
+      },
+      "currency": null
+    },
+    {
+      "name": "ovh",
+      "url": "http://www.ovh.es/dominios/doteus.xml",
+      "url_query": false,
+      "XPath": {
+        "registration": "//*[@id=\"main\"]/div[2]/div[3]/div/div/div/div/div[2]/div[1]/div[1]/span[1]",
+        "renew": "//*[@id=\"main\"]/div[2]/div[3]/div/div/div/div/div[2]/div[1]/div[3]/div/div[1]/span[1]"
+      },
+      "currency": "Euro"
+    },
+    {
+      "name": "united-domains",
+      "url": "http://www.uniteddomains.com/domain/buy-eus-domain-names/",
+      "url_query": false,
+      "vat": 19,
+	"XPath": {
+        "registration": "/html/body/div[2]/div/div[2]/div/div/div[1]/table[1]/tbody/tr[1]/td[2]",
+        "renew": "/html/body/div[2]/div/div[2]/div/div/div[1]/table[1]/tbody/tr[2]/td[2]"
+      },
+      "currency": null
+    }
+  ]
+}
