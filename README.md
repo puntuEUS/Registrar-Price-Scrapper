@@ -4,6 +4,9 @@ This tool will scrap each website and it will extract the price for whichever TL
 
 The aim of publishing this publicly is to give access to other registries to this tool, so that they can use it for their own purposes. By default, when executed it will print the results of the scrapping, and it will also send the results by e-mail. Feel free to make any changes so that it adapts to your needs.
 
+![An screenshot of the results report of the price scrapper](Scrapping_result_email.png "Price scrapper report")
+
+
 # Table of contents
 
 - [Dependencies](#dependencies)
